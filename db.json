@@ -19,7 +19,7 @@
                "ratePlanDescription":"Exclusive rate for World Of Hyatt Members. To receive this discount sign in with your membership number or join when making your reservation. Book now - limited rooms available. One Room Per World of Hyatt Member.",
                "paymentDescription":"Credit Card Guarantee Required",
                "penaltyDescription":"24HRS PRIOR TO CHECKIN TO AVOID 1NT FEE",
-               "penaltyCode":"24H",
+               "penaltyCode":"24H", 
                "rates":[
                   {
                      "rate":null,
