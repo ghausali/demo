@@ -153,8 +153,68 @@
                      }
                   }
               ]
-           }   
-                 
+           },   
+              
+      
+           {
+               "id":"ADPR",
+               "name":"Advance Purchase",
+               "ratePlanType":"STANDARD",
+               "guaranteeType":"DEPOSIT",
+               "ratePlanCategory":"CASH",
+               "rateFlags":[
+                  "UNMODIFIABLE",
+                  "CORE_RATE"
+               ],
+               "groupCode":null,
+               "isTranslated":true,
+               "offerCode":null,
+               "ratePlanDescription":"Full Pre-Payment:Non-Refundable:No Changes. Must be booked at least 72 Hours Prior to Arrival.",
+               "paymentDescription":"Credit Card Deposit Required 2 NIGHT(S) DEPOSIT WILL BE CHARGED TO CREDIT CARD",
+               "penaltyDescription":"NON REFUNDABLE/FULL PREPAYMENT/NO CHANGES",
+               "penaltyCode":"13M",
+               "rates":[
+                  {
+                     "rate":949.05,
+                     "totalBeforeTax":1898.1,
+                     "points":null,
+                     "currencyCode":"USD",
+                     "roomTypeCode":"KING",
+                     "roomCategory":"STANDARD",
+                     "roomFlags":null,
+                     "roomType":{
+                        "code":"KING",
+                        "title":"King Bed (with sofa bed)",
+                        "description":"Rooms should always feel, well, roomy and we made no exception here with separate sleeping and living areas, including one king Hyatt Grand Bed® and our Cozy Corner with sofa sleeper, perfect to sit back and relax.  ",
+                        "group":null,
+                        "subgroup":null,
+                        "numberOfBeds":null,
+                        "bedTypes":[
+
+                        ],
+                        "additionalBeds":[
+
+                        ],
+                        "minSize":null,
+                        "maxSize":null,
+                        "style":null,
+                        "features":{
+
+                        },
+                        "thumbnail":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P019-Guestroom-King.jpg/AUSZD-P019-Guestroom-King.16x9.jpg",
+                        "media":[
+                           {
+                              "url":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P019-Guestroom-King.jpg/AUSZD-P019-Guestroom-King.16x9.jpg",
+                              "name":null,
+                              "description":null
+                           }
+                        ]
+                     }
+                  }
+              ]
+           }
+      
+      
       ]
   }
 }
