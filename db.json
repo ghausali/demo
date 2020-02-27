@@ -1,9 +1,66 @@
 {
   "mockRatePlanService": {
     "ratePlans":[
-        {
-          "id":"MYHI"
-        }
+            {
+               "id":"MYHI",
+               "name":"Member Discount",
+               "ratePlanType":"STANDARD",
+               "guaranteeType":"STANDARD",
+               "ratePlanCategory":"CASH",
+               "rateFlags":[
+                  "CORE_RATE",
+                  "CONFIDENTIAL",
+                  "MEMBER_DISCOUNT",
+                  "LTO_17OFF"
+               ],
+               "groupCode":null,
+               "isTranslated":true,
+               "offerCode":null,
+               "ratePlanDescription":"Exclusive rate for World Of Hyatt Members. To receive this discount sign in with your membership number or join when making your reservation. Book now - limited rooms available. One Room Per World of Hyatt Member.",
+               "paymentDescription":"Credit Card Guarantee Required",
+               "penaltyDescription":"24HRS PRIOR TO CHECKIN TO AVOID 1NT FEE",
+               "penaltyCode":"24H",
+               "rates":[
+                  {
+                     "rate":null,
+                     "totalBeforeTax":null,
+                     "points":null,
+                     "currencyCode":null,
+                     "roomTypeCode":"KING",
+                     "roomCategory":"STANDARD",
+                     "roomFlags":null,
+                     "roomType":{
+                        "code":"KING",
+                        "title":"King Bed (with sofa bed)",
+                        "description":"Rooms should always feel, well, roomy and we made no exception here with separate sleeping and living areas, including one king Hyatt Grand Bed® and our Cozy Corner with sofa sleeper, perfect to sit back and relax.  ",
+                        "group":null,
+                        "subgroup":null,
+                        "numberOfBeds":null,
+                        "bedTypes":[
+
+                        ],
+                        "additionalBeds":[
+
+                        ],
+                        "minSize":null,
+                        "maxSize":null,
+                        "style":null,
+                        "features":{
+
+                        },
+                        "thumbnail":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P019-Guestroom-King.jpg/AUSZD-P019-Guestroom-King.16x9.jpg",
+                        "media":[
+                           {
+                              "url":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P019-Guestroom-King.jpg/AUSZD-P019-Guestroom-King.16x9.jpg",
+                              "name":null,
+                              "description":null
+                           }
+                        ]
+                     }
+                  }
+             }
+                 
+                 
       ]
   }
 }
