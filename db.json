@@ -79,8 +79,8 @@
                "penaltyCode":"24H",
                "rates":[
                   {
-                     "rate":999,
-                     "totalBeforeTax":1998,
+                     "rate":599,
+                     "totalBeforeTax":1598,
                      "points":null,
                      "currencyCode":"USD",
                      "roomTypeCode":"KING",
@@ -116,8 +116,8 @@
                      }
                   },
                   {
-                     "rate":999,
-                     "totalBeforeTax":1998,
+                     "rate":709,
+                     "totalBeforeTax":1798,
                      "points":null,
                      "currencyCode":"USD",
                      "roomTypeCode":"QNQN",
