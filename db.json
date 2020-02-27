@@ -1,14 +1,769 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1111111" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+   "mockRatePlanService":{
+         "ratePlans":[
+            {
+               "id":"MYHI",
+               "name":"Member Discount",
+               "ratePlanType":"STANDARD",
+               "guaranteeType":"STANDARD",
+               "ratePlanCategory":"CASH",
+               "rateFlags":[
+                  "CORE_RATE",
+                  "CONFIDENTIAL",
+                  "MEMBER_DISCOUNT",
+                  "LTO_17OFF"
+               ],
+               "groupCode":null,
+               "isTranslated":true,
+               "offerCode":null,
+               "ratePlanDescription":"Exclusive rate for World Of Hyatt Members. To receive this discount sign in with your membership number or join when making your reservation. Book now - limited rooms available. One Room Per World of Hyatt Member.",
+               "paymentDescription":"Credit Card Guarantee Required",
+               "penaltyDescription":"24HRS PRIOR TO CHECKIN TO AVOID 1NT FEE",
+               "penaltyCode":"24H",
+               "rates":[
+                  {
+                     "rate":null,
+                     "totalBeforeTax":null,
+                     "points":null,
+                     "currencyCode":null,
+                     "roomTypeCode":"KING",
+                     "roomCategory":"STANDARD",
+                     "roomFlags":null,
+                     "roomType":{
+                        "code":"KING",
+                        "title":"King Bed (with sofa bed)",
+                        "description":"Rooms should always feel, well, roomy and we made no exception here with separate sleeping and living areas, including one king Hyatt Grand Bed® and our Cozy Corner with sofa sleeper, perfect to sit back and relax.  ",
+                        "group":null,
+                        "subgroup":null,
+                        "numberOfBeds":null,
+                        "bedTypes":[
+
+                        ],
+                        "additionalBeds":[
+
+                        ],
+                        "minSize":null,
+                        "maxSize":null,
+                        "style":null,
+                        "features":{
+
+                        },
+                        "thumbnail":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P019-Guestroom-King.jpg/AUSZD-P019-Guestroom-King.16x9.jpg",
+                        "media":[
+                           {
+                              "url":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P019-Guestroom-King.jpg/AUSZD-P019-Guestroom-King.16x9.jpg",
+                              "name":null,
+                              "description":null
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "rate":null,
+                     "totalBeforeTax":null,
+                     "points":null,
+                     "currencyCode":null,
+                     "roomTypeCode":"QNQN",
+                     "roomCategory":"STANDARD",
+                     "roomFlags":null,
+                     "roomType":{
+                        "code":"QNQN",
+                        "title":"Two Queen Beds (with sofa bed)",
+                        "description":"Rooms should always feel, well, roomy and we made no exception here with separate sleeping and living areas, including two queen Hyatt Grand Beds® and our Cozy Corner with sofa sleeper, perfect to sit back and relax.",
+                        "group":null,
+                        "subgroup":null,
+                        "numberOfBeds":null,
+                        "bedTypes":[
+
+                        ],
+                        "additionalBeds":[
+
+                        ],
+                        "minSize":null,
+                        "maxSize":null,
+                        "style":null,
+                        "features":{
+
+                        },
+                        "thumbnail":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P018-Guestroom-Double.jpg/AUSZD-P018-Guestroom-Double.16x9.jpg",
+                        "media":[
+                           {
+                              "url":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P018-Guestroom-Double.jpg/AUSZD-P018-Guestroom-Double.16x9.jpg",
+                              "name":null,
+                              "description":null
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "rate":null,
+                     "totalBeforeTax":null,
+                     "points":null,
+                     "currencyCode":null,
+                     "roomTypeCode":"VW1K",
+                     "roomCategory":"PREMIUM",
+                     "roomFlags":null,
+                     "roomType":{
+                        "code":"VW1K",
+                        "title":"Corner View King Room (with Sofa Bed)",
+                        "description":"Enjoy an attractive view of downtown Austin, TX from your spacious guest room with separate sleeping and living areas, including one king Hyatt Grand Bed® and our Cozy Corner with sofa sleeper, perfect to sit back and relax.",
+                        "group":null,
+                        "subgroup":null,
+                        "numberOfBeds":null,
+                        "bedTypes":[
+
+                        ],
+                        "additionalBeds":[
+
+                        ],
+                        "minSize":null,
+                        "maxSize":null,
+                        "style":null,
+                        "features":{
+
+                        },
+                        "thumbnail":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P020-Corner-Guestroom-King.jpg/AUSZD-P020-Corner-Guestroom-King.16x9.jpg",
+                        "media":[
+                           {
+                              "url":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P020-Corner-Guestroom-King.jpg/AUSZD-P020-Corner-Guestroom-King.16x9.jpg",
+                              "name":null,
+                              "description":null
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "rate":null,
+                     "totalBeforeTax":null,
+                     "points":null,
+                     "currencyCode":null,
+                     "roomTypeCode":"HFLK",
+                     "roomCategory":"PREMIUM",
+                     "roomFlags":null,
+                     "roomType":{
+                        "code":"HFLK",
+                        "title":"King Bed High Floor (with sofa bed)",
+                        "description":"Enjoy our high floor spacious guestroom with separate sleeping and living areas, including one king Hyatt Grand Bed® and our Cozy Corner with sofa sleeper, perfect to sit back and relax.",
+                        "group":null,
+                        "subgroup":null,
+                        "numberOfBeds":null,
+                        "bedTypes":[
+
+                        ],
+                        "additionalBeds":[
+
+                        ],
+                        "minSize":null,
+                        "maxSize":null,
+                        "style":null,
+                        "features":{
+
+                        },
+                        "thumbnail":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P019-Guestroom-King.jpg/AUSZD-P019-Guestroom-King.16x9.jpg",
+                        "media":[
+                           {
+                              "url":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P019-Guestroom-King.jpg/AUSZD-P019-Guestroom-King.16x9.jpg",
+                              "name":null,
+                              "description":null
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "rate":null,
+                     "totalBeforeTax":null,
+                     "points":null,
+                     "currencyCode":null,
+                     "roomTypeCode":"HFLQ",
+                     "roomCategory":"PREMIUM",
+                     "roomFlags":null,
+                     "roomType":{
+                        "code":"HFLQ",
+                        "title":"Two Queen Beds High Floor (with sofa bed)",
+                        "description":"Enjoy our high floor spacious guestroom with separate sleeping and living areas, including two queen Hyatt Grand Beds® and our Cozy Corner with sofa sleeper, perfect to sit back and relax.",
+                        "group":null,
+                        "subgroup":null,
+                        "numberOfBeds":null,
+                        "bedTypes":[
+
+                        ],
+                        "additionalBeds":[
+
+                        ],
+                        "minSize":null,
+                        "maxSize":null,
+                        "style":null,
+                        "features":{
+
+                        },
+                        "thumbnail":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P018-Guestroom-Double.jpg/AUSZD-P018-Guestroom-Double.16x9.jpg",
+                        "media":[
+                           {
+                              "url":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P018-Guestroom-Double.jpg/AUSZD-P018-Guestroom-Double.16x9.jpg",
+                              "name":null,
+                              "description":null
+                           }
+                        ]
+                     }
+                  }
+               ]
+            },
+            {
+               "id":"ADPR",
+               "name":"Advance Purchase",
+               "ratePlanType":"STANDARD",
+               "guaranteeType":"DEPOSIT",
+               "ratePlanCategory":"CASH",
+               "rateFlags":[
+                  "UNMODIFIABLE",
+                  "CORE_RATE"
+               ],
+               "groupCode":null,
+               "isTranslated":true,
+               "offerCode":null,
+               "ratePlanDescription":"Full Pre-Payment:Non-Refundable:No Changes. Must be booked at least 72 Hours Prior to Arrival.",
+               "paymentDescription":"Credit Card Deposit Required 2 NIGHT(S) DEPOSIT WILL BE CHARGED TO CREDIT CARD",
+               "penaltyDescription":"NON REFUNDABLE/FULL PREPAYMENT/NO CHANGES",
+               "penaltyCode":"13M",
+               "rates":[
+                  {
+                     "rate":949.05,
+                     "totalBeforeTax":1898.1,
+                     "points":null,
+                     "currencyCode":"USD",
+                     "roomTypeCode":"KING",
+                     "roomCategory":"STANDARD",
+                     "roomFlags":null,
+                     "roomType":{
+                        "code":"KING",
+                        "title":"King Bed (with sofa bed)",
+                        "description":"Rooms should always feel, well, roomy and we made no exception here with separate sleeping and living areas, including one king Hyatt Grand Bed® and our Cozy Corner with sofa sleeper, perfect to sit back and relax.  ",
+                        "group":null,
+                        "subgroup":null,
+                        "numberOfBeds":null,
+                        "bedTypes":[
+
+                        ],
+                        "additionalBeds":[
+
+                        ],
+                        "minSize":null,
+                        "maxSize":null,
+                        "style":null,
+                        "features":{
+
+                        },
+                        "thumbnail":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P019-Guestroom-King.jpg/AUSZD-P019-Guestroom-King.16x9.jpg",
+                        "media":[
+                           {
+                              "url":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P019-Guestroom-King.jpg/AUSZD-P019-Guestroom-King.16x9.jpg",
+                              "name":null,
+                              "description":null
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "rate":949.05,
+                     "totalBeforeTax":1898.1,
+                     "points":null,
+                     "currencyCode":"USD",
+                     "roomTypeCode":"QNQN",
+                     "roomCategory":"STANDARD",
+                     "roomFlags":null,
+                     "roomType":{
+                        "code":"QNQN",
+                        "title":"Two Queen Beds (with sofa bed)",
+                        "description":"Rooms should always feel, well, roomy and we made no exception here with separate sleeping and living areas, including two queen Hyatt Grand Beds® and our Cozy Corner with sofa sleeper, perfect to sit back and relax.",
+                        "group":null,
+                        "subgroup":null,
+                        "numberOfBeds":null,
+                        "bedTypes":[
+
+                        ],
+                        "additionalBeds":[
+
+                        ],
+                        "minSize":null,
+                        "maxSize":null,
+                        "style":null,
+                        "features":{
+
+                        },
+                        "thumbnail":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P018-Guestroom-Double.jpg/AUSZD-P018-Guestroom-Double.16x9.jpg",
+                        "media":[
+                           {
+                              "url":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P018-Guestroom-Double.jpg/AUSZD-P018-Guestroom-Double.16x9.jpg",
+                              "name":null,
+                              "description":null
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "rate":974.05,
+                     "totalBeforeTax":1948.1,
+                     "points":null,
+                     "currencyCode":"USD",
+                     "roomTypeCode":"HFLK",
+                     "roomCategory":"PREMIUM",
+                     "roomFlags":null,
+                     "roomType":{
+                        "code":"HFLK",
+                        "title":"King Bed High Floor (with sofa bed)",
+                        "description":"Enjoy our high floor spacious guestroom with separate sleeping and living areas, including one king Hyatt Grand Bed® and our Cozy Corner with sofa sleeper, perfect to sit back and relax.",
+                        "group":null,
+                        "subgroup":null,
+                        "numberOfBeds":null,
+                        "bedTypes":[
+
+                        ],
+                        "additionalBeds":[
+
+                        ],
+                        "minSize":null,
+                        "maxSize":null,
+                        "style":null,
+                        "features":{
+
+                        },
+                        "thumbnail":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P019-Guestroom-King.jpg/AUSZD-P019-Guestroom-King.16x9.jpg",
+                        "media":[
+                           {
+                              "url":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P019-Guestroom-King.jpg/AUSZD-P019-Guestroom-King.16x9.jpg",
+                              "name":null,
+                              "description":null
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "rate":974.05,
+                     "totalBeforeTax":1948.1,
+                     "points":null,
+                     "currencyCode":"USD",
+                     "roomTypeCode":"HFLQ",
+                     "roomCategory":"PREMIUM",
+                     "roomFlags":null,
+                     "roomType":{
+                        "code":"HFLQ",
+                        "title":"Two Queen Beds High Floor (with sofa bed)",
+                        "description":"Enjoy our high floor spacious guestroom with separate sleeping and living areas, including two queen Hyatt Grand Beds® and our Cozy Corner with sofa sleeper, perfect to sit back and relax.",
+                        "group":null,
+                        "subgroup":null,
+                        "numberOfBeds":null,
+                        "bedTypes":[
+
+                        ],
+                        "additionalBeds":[
+
+                        ],
+                        "minSize":null,
+                        "maxSize":null,
+                        "style":null,
+                        "features":{
+
+                        },
+                        "thumbnail":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P018-Guestroom-Double.jpg/AUSZD-P018-Guestroom-Double.16x9.jpg",
+                        "media":[
+                           {
+                              "url":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P018-Guestroom-Double.jpg/AUSZD-P018-Guestroom-Double.16x9.jpg",
+                              "name":null,
+                              "description":null
+                           }
+                        ]
+                     }
+                  }
+               ]
+            },
+            {
+               "id":"RACK",
+               "name":"Standard Rate",
+               "ratePlanType":"STANDARD",
+               "guaranteeType":"STANDARD",
+               "ratePlanCategory":"CASH",
+               "rateFlags":[
+                  "CORE_RATE",
+                  "LTO_15OFF"
+               ],
+               "groupCode":null,
+               "isTranslated":true,
+               "offerCode":null,
+               "ratePlanDescription":"Regularly published room rates.",
+               "paymentDescription":"Credit Card Guarantee Required",
+               "penaltyDescription":"24HRS PRIOR TO CHECKIN TO AVOID 1NT FEE",
+               "penaltyCode":"24H",
+               "rates":[
+                  {
+                     "rate":999,
+                     "totalBeforeTax":1998,
+                     "points":null,
+                     "currencyCode":"USD",
+                     "roomTypeCode":"KING",
+                     "roomCategory":"STANDARD",
+                     "roomFlags":null,
+                     "roomType":{
+                        "code":"KING",
+                        "title":"King Bed (with sofa bed)",
+                        "description":"Rooms should always feel, well, roomy and we made no exception here with separate sleeping and living areas, including one king Hyatt Grand Bed® and our Cozy Corner with sofa sleeper, perfect to sit back and relax.  ",
+                        "group":null,
+                        "subgroup":null,
+                        "numberOfBeds":null,
+                        "bedTypes":[
+
+                        ],
+                        "additionalBeds":[
+
+                        ],
+                        "minSize":null,
+                        "maxSize":null,
+                        "style":null,
+                        "features":{
+
+                        },
+                        "thumbnail":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P019-Guestroom-King.jpg/AUSZD-P019-Guestroom-King.16x9.jpg",
+                        "media":[
+                           {
+                              "url":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P019-Guestroom-King.jpg/AUSZD-P019-Guestroom-King.16x9.jpg",
+                              "name":null,
+                              "description":null
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "rate":999,
+                     "totalBeforeTax":1998,
+                     "points":null,
+                     "currencyCode":"USD",
+                     "roomTypeCode":"QNQN",
+                     "roomCategory":"STANDARD",
+                     "roomFlags":null,
+                     "roomType":{
+                        "code":"QNQN",
+                        "title":"Two Queen Beds (with sofa bed)",
+                        "description":"Rooms should always feel, well, roomy and we made no exception here with separate sleeping and living areas, including two queen Hyatt Grand Beds® and our Cozy Corner with sofa sleeper, perfect to sit back and relax.",
+                        "group":null,
+                        "subgroup":null,
+                        "numberOfBeds":null,
+                        "bedTypes":[
+
+                        ],
+                        "additionalBeds":[
+
+                        ],
+                        "minSize":null,
+                        "maxSize":null,
+                        "style":null,
+                        "features":{
+
+                        },
+                        "thumbnail":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P018-Guestroom-Double.jpg/AUSZD-P018-Guestroom-Double.16x9.jpg",
+                        "media":[
+                           {
+                              "url":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P018-Guestroom-Double.jpg/AUSZD-P018-Guestroom-Double.16x9.jpg",
+                              "name":null,
+                              "description":null
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "rate":1049,
+                     "totalBeforeTax":2098,
+                     "points":null,
+                     "currencyCode":"USD",
+                     "roomTypeCode":"VW1K",
+                     "roomCategory":"PREMIUM",
+                     "roomFlags":null,
+                     "roomType":{
+                        "code":"VW1K",
+                        "title":"Corner View King Room (with Sofa Bed)",
+                        "description":"Enjoy an attractive view of downtown Austin, TX from your spacious guest room with separate sleeping and living areas, including one king Hyatt Grand Bed® and our Cozy Corner with sofa sleeper, perfect to sit back and relax.",
+                        "group":null,
+                        "subgroup":null,
+                        "numberOfBeds":null,
+                        "bedTypes":[
+
+                        ],
+                        "additionalBeds":[
+
+                        ],
+                        "minSize":null,
+                        "maxSize":null,
+                        "style":null,
+                        "features":{
+
+                        },
+                        "thumbnail":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P020-Corner-Guestroom-King.jpg/AUSZD-P020-Corner-Guestroom-King.16x9.jpg",
+                        "media":[
+                           {
+                              "url":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P020-Corner-Guestroom-King.jpg/AUSZD-P020-Corner-Guestroom-King.16x9.jpg",
+                              "name":null,
+                              "description":null
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "rate":1024,
+                     "totalBeforeTax":2048,
+                     "points":null,
+                     "currencyCode":"USD",
+                     "roomTypeCode":"HFLK",
+                     "roomCategory":"PREMIUM",
+                     "roomFlags":null,
+                     "roomType":{
+                        "code":"HFLK",
+                        "title":"King Bed High Floor (with sofa bed)",
+                        "description":"Enjoy our high floor spacious guestroom with separate sleeping and living areas, including one king Hyatt Grand Bed® and our Cozy Corner with sofa sleeper, perfect to sit back and relax.",
+                        "group":null,
+                        "subgroup":null,
+                        "numberOfBeds":null,
+                        "bedTypes":[
+
+                        ],
+                        "additionalBeds":[
+
+                        ],
+                        "minSize":null,
+                        "maxSize":null,
+                        "style":null,
+                        "features":{
+
+                        },
+                        "thumbnail":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P019-Guestroom-King.jpg/AUSZD-P019-Guestroom-King.16x9.jpg",
+                        "media":[
+                           {
+                              "url":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P019-Guestroom-King.jpg/AUSZD-P019-Guestroom-King.16x9.jpg",
+                              "name":null,
+                              "description":null
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "rate":1024,
+                     "totalBeforeTax":2048,
+                     "points":null,
+                     "currencyCode":"USD",
+                     "roomTypeCode":"HFLQ",
+                     "roomCategory":"PREMIUM",
+                     "roomFlags":null,
+                     "roomType":{
+                        "code":"HFLQ",
+                        "title":"Two Queen Beds High Floor (with sofa bed)",
+                        "description":"Enjoy our high floor spacious guestroom with separate sleeping and living areas, including two queen Hyatt Grand Beds® and our Cozy Corner with sofa sleeper, perfect to sit back and relax.",
+                        "group":null,
+                        "subgroup":null,
+                        "numberOfBeds":null,
+                        "bedTypes":[
+
+                        ],
+                        "additionalBeds":[
+
+                        ],
+                        "minSize":null,
+                        "maxSize":null,
+                        "style":null,
+                        "features":{
+
+                        },
+                        "thumbnail":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P018-Guestroom-Double.jpg/AUSZD-P018-Guestroom-Double.16x9.jpg",
+                        "media":[
+                           {
+                              "url":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P018-Guestroom-Double.jpg/AUSZD-P018-Guestroom-Double.16x9.jpg",
+                              "name":null,
+                              "description":null
+                           }
+                        ]
+                     }
+                  }
+               ]
+            },
+            {
+               "id":"2XPTS",
+               "name":"Double Your Points",
+               "ratePlanType":"STANDARD",
+               "guaranteeType":"STANDARD",
+               "ratePlanCategory":"CASH",
+               "rateFlags":[
+                  "CORE_RATE"
+               ],
+               "groupCode":null,
+               "isTranslated":true,
+               "offerCode":null,
+               "ratePlanDescription":"EXCLUSIVE OFFER for World of Hyatt members to book on Hyatt.com. Earn double World of Hyatt points on your room rate and eligible incidental charges when paying the Double Your Points rate. Must be a World of Hyatt Member and request points for the stay. Not valid with groups/conventions and may not be combined with other promotional offers.",
+               "paymentDescription":"Credit Card Guarantee Required",
+               "penaltyDescription":"24HRS PRIOR TO CHECKIN TO AVOID 1NT FEE",
+               "penaltyCode":"24H",
+               "rates":[
+                  {
+                     "rate":1098.9,
+                     "totalBeforeTax":2197.8,
+                     "points":null,
+                     "currencyCode":"USD",
+                     "roomTypeCode":"KING",
+                     "roomCategory":"STANDARD",
+                     "roomFlags":null,
+                     "roomType":{
+                        "code":"KING",
+                        "title":"King Bed (with sofa bed)",
+                        "description":"Rooms should always feel, well, roomy and we made no exception here with separate sleeping and living areas, including one king Hyatt Grand Bed® and our Cozy Corner with sofa sleeper, perfect to sit back and relax.  ",
+                        "group":null,
+                        "subgroup":null,
+                        "numberOfBeds":null,
+                        "bedTypes":[
+
+                        ],
+                        "additionalBeds":[
+
+                        ],
+                        "minSize":null,
+                        "maxSize":null,
+                        "style":null,
+                        "features":{
+
+                        },
+                        "thumbnail":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P019-Guestroom-King.jpg/AUSZD-P019-Guestroom-King.16x9.jpg",
+                        "media":[
+                           {
+                              "url":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P019-Guestroom-King.jpg/AUSZD-P019-Guestroom-King.16x9.jpg",
+                              "name":null,
+                              "description":null
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "rate":1098.9,
+                     "totalBeforeTax":2197.8,
+                     "points":null,
+                     "currencyCode":"USD",
+                     "roomTypeCode":"QNQN",
+                     "roomCategory":"STANDARD",
+                     "roomFlags":null,
+                     "roomType":{
+                        "code":"QNQN",
+                        "title":"Two Queen Beds (with sofa bed)",
+                        "description":"Rooms should always feel, well, roomy and we made no exception here with separate sleeping and living areas, including two queen Hyatt Grand Beds® and our Cozy Corner with sofa sleeper, perfect to sit back and relax.",
+                        "group":null,
+                        "subgroup":null,
+                        "numberOfBeds":null,
+                        "bedTypes":[
+
+                        ],
+                        "additionalBeds":[
+
+                        ],
+                        "minSize":null,
+                        "maxSize":null,
+                        "style":null,
+                        "features":{
+
+                        },
+                        "thumbnail":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P018-Guestroom-Double.jpg/AUSZD-P018-Guestroom-Double.16x9.jpg",
+                        "media":[
+                           {
+                              "url":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P018-Guestroom-Double.jpg/AUSZD-P018-Guestroom-Double.16x9.jpg",
+                              "name":null,
+                              "description":null
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "rate":1123.9,
+                     "totalBeforeTax":2247.8,
+                     "points":null,
+                     "currencyCode":"USD",
+                     "roomTypeCode":"HFLK",
+                     "roomCategory":"PREMIUM",
+                     "roomFlags":null,
+                     "roomType":{
+                        "code":"HFLK",
+                        "title":"King Bed High Floor (with sofa bed)",
+                        "description":"Enjoy our high floor spacious guestroom with separate sleeping and living areas, including one king Hyatt Grand Bed® and our Cozy Corner with sofa sleeper, perfect to sit back and relax.",
+                        "group":null,
+                        "subgroup":null,
+                        "numberOfBeds":null,
+                        "bedTypes":[
+
+                        ],
+                        "additionalBeds":[
+
+                        ],
+                        "minSize":null,
+                        "maxSize":null,
+                        "style":null,
+                        "features":{
+
+                        },
+                        "thumbnail":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P019-Guestroom-King.jpg/AUSZD-P019-Guestroom-King.16x9.jpg",
+                        "media":[
+                           {
+                              "url":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P019-Guestroom-King.jpg/AUSZD-P019-Guestroom-King.16x9.jpg",
+                              "name":null,
+                              "description":null
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "rate":1123.9,
+                     "totalBeforeTax":2247.8,
+                     "points":null,
+                     "currencyCode":"USD",
+                     "roomTypeCode":"HFLQ",
+                     "roomCategory":"PREMIUM",
+                     "roomFlags":null,
+                     "roomType":{
+                        "code":"HFLQ",
+                        "title":"Two Queen Beds High Floor (with sofa bed)",
+                        "description":"Enjoy our high floor spacious guestroom with separate sleeping and living areas, including two queen Hyatt Grand Beds® and our Cozy Corner with sofa sleeper, perfect to sit back and relax.",
+                        "group":null,
+                        "subgroup":null,
+                        "numberOfBeds":null,
+                        "bedTypes":[
+
+                        ],
+                        "additionalBeds":[
+
+                        ],
+                        "minSize":null,
+                        "maxSize":null,
+                        "style":null,
+                        "features":{
+
+                        },
+                        "thumbnail":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P018-Guestroom-Double.jpg/AUSZD-P018-Guestroom-Double.16x9.jpg",
+                        "media":[
+                           {
+                              "url":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P018-Guestroom-Double.jpg/AUSZD-P018-Guestroom-Double.16x9.jpg",
+                              "name":null,
+                              "description":null
+                           }
+                        ]
+                     }
+                  }
+               ]
+            }
+         ],
+         "lowestCashRate":{
+            "rate":949.05,
+            "currencyCode":"USD",
+            "ROOMS":{
+               "ONE_BED":null,
+               "TWO_BEDS":null
+            }
+         },
+         "lowestPointValue":{
+            "currencyCode":null,
+            "ROOMS":{
+               "ONE_BED":null,
+               "TWO_BEDS":null
+            }
+         },
+         "responseInfo":null
+      }
 }
