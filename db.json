@@ -2,7 +2,7 @@
   "mockRatePlanService": {
     "ratePlans":[
             {
-               "id":"MYHI",
+               "id":"MYHIL",
                "name":"Member Discount",
                "ratePlanType":"STANDARD",
                "guaranteeType":"STANDARD",
