@@ -2,7 +2,7 @@
   "mockRatePlanService": {
     "ratePlans":[
             {
-               "id":"MYHIL",
+               "id":"MYHI",
                "name":"Member Discount",
                "ratePlanType":"STANDARD",
                "guaranteeType":"STANDARD",
@@ -59,8 +59,101 @@
                      }
                   }
                 ]
-             }
-                 
+             },
+                  {
+               "id":"RACK",
+               "name":"Standard Rate",
+               "ratePlanType":"STANDARD",
+               "guaranteeType":"STANDARD",
+               "ratePlanCategory":"CASH",
+               "rateFlags":[
+                  "CORE_RATE",
+                  "LTO_15OFF"
+               ],
+               "groupCode":null,
+               "isTranslated":true,
+               "offerCode":null,
+               "ratePlanDescription":"Regularly published room rates.",
+               "paymentDescription":"Credit Card Guarantee Required",
+               "penaltyDescription":"24HRS PRIOR TO CHECKIN TO AVOID 1NT FEE",
+               "penaltyCode":"24H",
+               "rates":[
+                  {
+                     "rate":999,
+                     "totalBeforeTax":1998,
+                     "points":null,
+                     "currencyCode":"USD",
+                     "roomTypeCode":"KING",
+                     "roomCategory":"STANDARD",
+                     "roomFlags":null,
+                     "roomType":{
+                        "code":"KING",
+                        "title":"King Bed (with sofa bed)",
+                        "description":"Rooms should always feel, well, roomy and we made no exception here with separate sleeping and living areas, including one king Hyatt Grand Bed® and our Cozy Corner with sofa sleeper, perfect to sit back and relax.  ",
+                        "group":null,
+                        "subgroup":null,
+                        "numberOfBeds":null,
+                        "bedTypes":[
+
+                        ],
+                        "additionalBeds":[
+
+                        ],
+                        "minSize":null,
+                        "maxSize":null,
+                        "style":null,
+                        "features":{
+
+                        },
+                        "thumbnail":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P019-Guestroom-King.jpg/AUSZD-P019-Guestroom-King.16x9.jpg",
+                        "media":[
+                           {
+                              "url":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P019-Guestroom-King.jpg/AUSZD-P019-Guestroom-King.16x9.jpg",
+                              "name":null,
+                              "description":null
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "rate":999,
+                     "totalBeforeTax":1998,
+                     "points":null,
+                     "currencyCode":"USD",
+                     "roomTypeCode":"QNQN",
+                     "roomCategory":"STANDARD",
+                     "roomFlags":null,
+                     "roomType":{
+                        "code":"QNQN",
+                        "title":"Two Queen Beds (with sofa bed)",
+                        "description":"Rooms should always feel, well, roomy and we made no exception here with separate sleeping and living areas, including two queen Hyatt Grand Beds® and our Cozy Corner with sofa sleeper, perfect to sit back and relax.",
+                        "group":null,
+                        "subgroup":null,
+                        "numberOfBeds":null,
+                        "bedTypes":[
+
+                        ],
+                        "additionalBeds":[
+
+                        ],
+                        "minSize":null,
+                        "maxSize":null,
+                        "style":null,
+                        "features":{
+
+                        },
+                        "thumbnail":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P018-Guestroom-Double.jpg/AUSZD-P018-Guestroom-Double.16x9.jpg",
+                        "media":[
+                           {
+                              "url":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1546/AUSZD-P018-Guestroom-Double.jpg/AUSZD-P018-Guestroom-Double.16x9.jpg",
+                              "name":null,
+                              "description":null
+                           }
+                        ]
+                     }
+                  }
+              ]
+           }   
                  
       ]
   }
