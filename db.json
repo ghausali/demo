@@ -1,25 +1,11 @@
 {
-   "mockRatePlanService":{
-         "ratePlans":[
-            {
-
-            }
-         ],
-         "lowestCashRate":{
-            "rate":949.05,
-            "currencyCode":"USD",
-            "ROOMS":{
-               "ONE_BED":null,
-               "TWO_BEDS":null
-            }
-         },
-         "lowestPointValue":{
-            "currencyCode":null,
-            "ROOMS":{
-               "ONE_BED":null,
-               "TWO_BEDS":null
-            }
-         },
-         "responseInfo":null
-      }
+  "posts": [
+    {
+      "id": 1,
+      "title": "hello"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
